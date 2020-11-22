@@ -17,7 +17,7 @@ void fib(int* y)
     int a = 1, b = 1, sum = 0, h;
     if (*y < 0 || *y <= 2 || *y>1000)
     {
-        printf("put num > 2 and < 1000");
+        printf("put num > 2 and <= 1000");
     }
     else if (*y % 2 != 0)
     {
